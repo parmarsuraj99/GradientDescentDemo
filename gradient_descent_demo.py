@@ -1,5 +1,6 @@
 import numpy as np
 
+#Function to calculate error at current m and b 
 def calculate_error(x, y, m, b):
   error=0
   error = np.sum((m*x+b - y)**2)
